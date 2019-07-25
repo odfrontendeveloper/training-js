@@ -1,0 +1,208 @@
+#previousSlide img {
+  transform: rotate(180deg);
+}
+.our-projects-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  .our-projects-header {
+    display: flex;
+    flex-direction: row;
+    .slider-head-info {
+      width: 100%;
+      color: #e74c3c;
+      font-family: "Open Sans";
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 22px;
+      text-transform: uppercase;
+      color: #3e3e3e;
+      letter-spacing: -0.44px;
+      letter-spacing: -0.44px;
+    }
+  }
+  .control-projects-block {
+    display: flex;
+    button {
+      transition: all 1s ease;
+      background: 0;
+      border: 0;
+    }
+    button:focus {
+      outline: none;
+    }
+    button:hover {
+      transition: all 0.2s ease;
+      opacity: 0.7;
+    }
+  }
+  .projects-control {
+    box-sizing: border-box;
+    margin-top: 20px;
+    overflow: hidden;
+    .projects-slider-list {
+      transition: all 1s ease;
+      left: 0;
+      display: flex;
+      position: relative;
+      .project-info {
+        width: 250px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .project {
+          width: 235px;
+          height: 130px;
+          background-color: #b1b1b1;
+        }
+        .description {
+          padding-left: 5px;
+          align-self: flex-start;
+          color: #000000;
+          font-family: "Open Sans";
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 540px){
+  .our-projects-block {
+    margin-bottom: 50px;
+    width: 100%;
+    .our-projects-header {
+      display: flex;
+      flex-direction: row;
+    }
+    .control-projects-block {
+      display: flex;
+    }
+    .projects-control {
+      width: 250px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 20px;
+      .project-info {
+        .project {
+          width: 235px;
+          height: 130px;
+          background-color: #b1b1b1;
+        }
+        .description {
+          color: #000000;
+          font-family: "Open Sans";
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}
+@media(min-width: 541px) and (max-width: 730px){
+  .our-projects-block {
+    margin-bottom: 50px;
+    width: 100%;
+    .our-projects-header {
+      display: flex;
+      flex-direction: row;
+    }
+    .control-projects-block {
+      display: flex;
+    }
+    .projects-control {
+      width: 500px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 20px;
+      .project-info {
+        .project {
+          width: 235px;
+          height: 130px;
+          background-color: #b1b1b1;
+        }
+        .description {
+          color: #000000;
+          font-family: "Open Sans";
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}
+@media(min-width: 731px) and (max-width: 1050px){
+  .our-projects-block {
+    margin-bottom: 50px;
+    width: 100%;
+    .our-projects-header {
+      display: flex;
+      flex-direction: row;
+    }
+    .control-projects-block {
+      display: flex;
+    }
+    .projects-control {
+      width: 500px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 20px;
+      .project-info {
+        .project {
+          width: 235px;
+          height: 130px;
+          background-color: #b1b1b1;
+        }
+        .description {
+          color: #000000;
+          font-family: "Open Sans";
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}
+@media(min-width: 1051px){
+  .our-projects-block {
+    margin-bottom: 50px;
+    width: 100%;
+    .our-projects-header {
+      display: flex;
+      flex-direction: row;
+    }
+    .control-projects-block {
+      display: flex;
+    }
+    .projects-control {
+      width: 1000px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 20px;
+      .project-info {
+        .project {
+          width: 235px;
+          height: 130px;
+          background-color: #b1b1b1;
+        }
+        .description {
+          color: #000000;
+          font-family: "Open Sans";
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}
